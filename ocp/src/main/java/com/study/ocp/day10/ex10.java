@@ -9,7 +9,7 @@ public class ex10 {
 		book6 b = (String bookName, int price) -> "書名= " + bookName + "\t價格= " + price;			
 		System.out.println(b.show("現代 Java", 100));
 		book6 b2=(bookName,price)->"書名="+bookName+"\t價格="+price;
-		System.out.println(b2.show("abc",-1000));
+		System.out.println(b2.show("abc", -1000));
 		System.out.println("2. 由多個 static method p1, p2 來實作 abstract method of show in interface book6");
 		book6 b3 = cal::p1;		
 		System.out.println(b3.show("James", -1000));
